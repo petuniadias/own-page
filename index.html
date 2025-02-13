@@ -18,7 +18,9 @@
         ">
           home
         </li>
-        <li class="category-name-header">
+        <li class="category-name-header" onclick="
+          location.href='#js-about'
+        ">
           about
         </li>
         
@@ -44,7 +46,9 @@
           <li class="category-name" >
             home
           </li>
-          <li class="category-name">
+          <li class="category-name" onclick="
+            location.href='#js-about'
+          ">
             about
           </li>
     
@@ -64,8 +68,27 @@
       </div>
   </section>
 
-  <section class="albuns" id="js-albuns">
+  <section class="about" id="js-about">
+    <h1>
+      about.
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet massa non mauris rutrum consectetur in aliquet lacus. Curabitur eu ullamcorper velit. Phasellus et quam at velit tincidunt suscipit. Ut pellentesque, ex ac pellentesque imperdiet, arcu ex tristique tortor, non dictum nibh velit ac tortor. Pellentesque mauris mi, vehicula vitae mauris id, accumsan porttitor ante. Etiam scelerisque egestas pellentesque. Nulla bibendum vel velit quis feugiat. Sed ut nulla sagittis libero dapibus finibus id quis ante. Quisque quis ligula ante. Aliquam mi erat, mattis at ligula a, iaculis facilisis erat. Sed tempor accumsan volutpat. Donec hendrerit justo ligula, vitae lobortis ipsum lacinia id.
+    </p>
+  </section>
 
+  <section class="albuns" id="js-albuns">
+    <div class="grid-container">
+      <div class="grid-box">
+        <img src="assets/images/indexpage.gif">
+      </div>
+      <div class="grid-box">
+        <img src="assets/images/indexpageone.gif">
+      </div>
+      <div class="grid-box">
+        <img src="assets/images/indexpagetwo.gif">
+      </div>
+    </div>
   </section>
 
   <script src="assets/js/index.js"></script>
