@@ -12,3 +12,14 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 observer.observe(mainHeader);
+
+const images = ["assets/images/indexpage.gif", "assets/images/indexpageone.gif", "assets/images/indexpagetwo.gif"];
+let currentIndex = 0;
+
+function changeImage() {
+  const main = document.getElementById('js-main-image');
+  currentIndex = (currentIndex + 1) % images.length;
+  main.src = images[currentIndex];
+}
+
+setInterval(changeImage, 2000);

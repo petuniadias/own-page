@@ -13,26 +13,35 @@
   <nav class="second-header">
     <div class="header-container">
       <ul class="category-container-header">
-        <li class="category-name-header">
+        <li class="category-name-header" onclick="
+          location.href='#js-home'  
+        ">
           home
         </li>
         <li class="category-name-header">
           about
         </li>
-  
+        
+        <li class="category-name-header">
+          blog
+        </li>
+
         <li class="category-name-header">
           albuns
+        </li>
+
+        <li class="category-name-header">
+          contacts
         </li>
       </ul>
     </div>
     </div>
   </nav>
-  <section class="main-header">
-    <div>
+  <section class="main-header" id="js-home">
       <div class="main-image-container">
-        <img class="main-image" src="assets/images/indexpage.gif">
+        <img class="main-image" id="js-main-image" src="assets/images/indexpage.gif">
         <ul class="category-container">
-          <li class="category-name">
+          <li class="category-name" >
             home
           </li>
           <li class="category-name">
@@ -40,14 +49,22 @@
           </li>
     
           <li class="category-name">
+            blog
+          </li>
+          <li class="category-name" onclick="
+            location.href='#js-albuns';
+
+          ">
             albuns
+          </li>
+          <li class="category-name">
+            contacts
           </li>
         </ul>
       </div>
-    </div>
   </section>
 
-  <section class="albuns">
+  <section class="albuns" id="js-albuns">
 
   </section>
 
