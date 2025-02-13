@@ -32,6 +32,7 @@ html {
   object-fit: cover;
   transition: transform 1s ease,
   filter 1s;
+  cursor: pointer;
 }
 
 .grid-box > img:hover {
