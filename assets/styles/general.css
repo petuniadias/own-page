@@ -75,14 +75,15 @@ h2, p{
   margin: 10px 0;
 }
 
-.heart-btn {
+.end-section {
   display: flex;
-  justify-content: end;
-  align-items: end;
-  margin: 10px 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
 }
 
-.heart-btn > img {
+.heart-btn {
   cursor: pointer;
 }
 
@@ -137,4 +138,36 @@ footer {
 /* TEMPORARY BREAK */
 .break {
   height: 70px;
+  background-color: white;
+  padding: 0px;
+}
+
+/* PLAYLIST SECTION */
+
+
+.playlist-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.playlist-content > p{
+  margin-bottom: 20px;
+}
+
+.left-section{
+  width: 400px;
+  margin-right: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.seemore-btn {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  background-color: rgb(12, 9, 40);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
