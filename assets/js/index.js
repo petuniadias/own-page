@@ -1,3 +1,4 @@
+/* SUB-HEADER ONLY APPEARS WHEN MAIN-HEADER LEAVES THE SCREEN*/
 const header = document.querySelector('nav');
 const mainHeader = document.querySelector('.main-header');
 
@@ -12,6 +13,8 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 observer.observe(mainHeader);
+
+/* MAIN HEADER IMAGE CHANGE LOOP*/
 
 const images = ["assets/images/indexpage.gif", "assets/images/indexpageone.gif", "assets/images/indexpagetwo.gif"];
 let currentIndex = 0;
