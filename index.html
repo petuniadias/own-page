@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/styles/general.css">
   <link rel="icon" href="assets/images/logotipo.svg" type="image/png">
 
-  <title>own page.</title>
+  <title>kindacat.</title>
 </head>
 <body>
   <nav class="second-header">
@@ -25,15 +25,21 @@
           about
         </li>
         
-        <li class="category-name-header">
+        <li class="category-name-header" onclick="
+          location.href='#js-blog'
+        ">
           blog
         </li>
 
-        <li class="category-name-header">
+        <li class="category-name-header" onclick="
+          location.href='#js-albuns'
+        ">
           albuns
         </li>
 
-        <li class="category-name-header">
+        <li class="category-name-header" onclick="
+          location.href='#js-contacts'
+        ">
           contacts
         </li>
       </ul>
@@ -46,7 +52,9 @@
       <div class="main-image-container">
         <img class="main-image" id="js-main-image" src="assets/images/indexpage.gif">
         <ul class="category-container">
-          <li class="category-name" >
+          <li class="category-name" onclick="
+            location.href='#js-home'
+          ">
             home
           </li>
           <li class="category-name" onclick="
@@ -55,7 +63,9 @@
             about
           </li>
     
-          <li class="category-name">
+          <li class="category-name" onclick="
+            location.href='#js-blog'
+          ">
             blog
           </li>
           <li class="category-name" onclick="
@@ -64,7 +74,9 @@
           ">
             albuns
           </li>
-          <li class="category-name">
+          <li class="category-name" onclick="
+            location.href='#js-contacts'
+          ">
             contacts
           </li>
         </ul>
@@ -80,6 +92,7 @@
   </section>
   <main>
     <section class="about" id="js-about">
+      <div class="break"></div>
       <h1>
         about.
       </h1>
@@ -88,7 +101,9 @@
       </p>
     </section>
   
-    <section >
+
+    <section id="js-blog">
+      <div class="break"></div>
       <h1>
         blog.
       </h1>
@@ -131,6 +146,7 @@
     </section>
   
     <section class="albuns" id="js-albuns">
+      <div class="break"></div>
       <h1>
         albuns.
       </h1>
@@ -147,7 +163,7 @@
       </div>
     </section>
   
-    <section>
+    <section id="js-contacts">
       <h1>
         contacts.
       </h1>

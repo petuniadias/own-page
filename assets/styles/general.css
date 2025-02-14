@@ -54,7 +54,7 @@ main {
 }
 
 section {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .music-player {
@@ -132,4 +132,9 @@ footer {
 
 .main-text-footer {
   font-size: 20px;
+}
+
+/* TEMPORARY BREAK */
+.break {
+  height: 70px;
 }
